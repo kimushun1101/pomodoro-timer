@@ -3,6 +3,9 @@
 # pomodoro-timer
 Pomodoro Timer running on MATLAB.
 
+![pomodoro-timer](https://github.com/user-attachments/assets/fe588eeb-c508-492a-9543-27fda1f4de9d)
+
+
 ## Installation
 Open [Add-On Explorer](https://jp.mathworks.com/help/matlab/matlab_env/get-add-ons.html) on your MATLAB and Search `pomodoro timer`, then `Add` -> `Add to MATLAB`.
 
