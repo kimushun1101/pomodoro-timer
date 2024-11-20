@@ -1,4 +1,4 @@
-[![View pomodoro-timer on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://jp.mathworks.com/matlabcentral/fileexchange/)
+[![View pomodoro-timer on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://jp.mathworks.com/matlabcentral/fileexchange/176128-pomodoro-timer)
 
 # pomodoro-timer
 Pomodoro Timer running on MATLAB.
@@ -6,8 +6,8 @@ Pomodoro Timer running on MATLAB.
 ![pomodoro-timer](https://github.com/user-attachments/assets/fe588eeb-c508-492a-9543-27fda1f4de9d)
 
 
-## Installation
-Open [Add-On Explorer](https://jp.mathworks.com/help/matlab/matlab_env/get-add-ons.html) on your MATLAB and Search `pomodoro timer`, then `Add` -> `Add to MATLAB`.
+## Install
+Open [Add-On Explorer](https://jp.mathworks.com/help/matlab/matlab_env/get-add-ons.html) on your MATLAB and Search `pomodoro-timer`, then `Add` -> `Add to MATLAB`.
 
 ## Usage
 Execution can be performed without arguments.
@@ -25,6 +25,13 @@ It can be executed with the following options (default values in parentheses).
 For example:
 ```
 pomodoroTimer("WorkTime", 52, "ShortBreakTime", 17, "LongBreakTime", 60, "NumberOfShortBreak", 3)
+```
+
+## Uninstall
+
+Execute the following command in your MATLAB command window.
+```
+matlab.addons.uninstall("pomodoro-timer")
 ```
 
 ## License
