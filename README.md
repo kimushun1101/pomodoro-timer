@@ -3,6 +3,13 @@
 # pomodoro-timer
 Pomodoro Timer running on MATLAB.
 
+The Pomodoro Technique is a time management method.
+Users set the number of cycles, and each cycle consists of a 25 minutes work followed by a 5 minutes short break.
+In the last cycle, instead of a short break, take a 30 minutes longer break.
+
+This timer displays the current status and the time remaining.
+A sound notification alerts the user when the timer switches each status.
+
 ![pomodoro-timer](https://github.com/user-attachments/assets/fe588eeb-c508-492a-9543-27fda1f4de9d)
 
 
@@ -13,6 +20,11 @@ Open [Add-On Explorer](https://jp.mathworks.com/help/matlab/matlab_env/get-add-o
 Execution can be performed without arguments.
 The command is only `>> pomodoroTimer`.
 
+The default number of cycles is `4`.
+To change it, simply give the desired number as an argument.
+```
+pomodoroTimer(3)
+```
 
 ### Option arguments
 It can be executed with the following options (default values in parentheses).
@@ -20,16 +32,14 @@ It can be executed with the following options (default values in parentheses).
 - `WorkTime` (25) : Minutes of a work time.
 - `ShortBreakTime` (5) : Minutes of a short break.
 - `LongBreakTime` (15) : Minutes of a long break.
-- `NumberOfShortBreak` (4) : Number of short breaks taken before a long break.
 
 For example:
 ```
-pomodoroTimer("WorkTime", 52, "ShortBreakTime", 17, "LongBreakTime", 60, "NumberOfShortBreak", 3)
+pomodoroTimer(3, "WorkTime", 52, "ShortBreakTime", 17, "LongBreakTime", 60)
 ```
 
 ## Uninstall
-
-Execute the following command in your MATLAB command window.
+Execute the following command.
 ```
 matlab.addons.uninstall("pomodoro-timer")
 ```
