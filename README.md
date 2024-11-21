@@ -10,8 +10,7 @@ In the last cycle, instead of a short break, take a 30 minutes longer break.
 This timer displays the current status and the time remaining.
 A sound notification alerts the user when the timer switches each status.
 
-![pomodoro-timer](https://github.com/user-attachments/assets/fe588eeb-c508-492a-9543-27fda1f4de9d)
-
+![pomodoro-timer](https://github.com/user-attachments/assets/571f4d8d-efc2-4056-895e-bb81c102cbc5)
 
 ## Install
 Open [Add-On Explorer](https://jp.mathworks.com/help/matlab/matlab_env/get-add-ons.html) on your MATLAB and Search `pomodoro-timer`, then `Add` -> `Add to MATLAB`.
